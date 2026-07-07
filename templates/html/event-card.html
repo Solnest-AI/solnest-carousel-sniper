@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family={{--google-query}}&display=swap" rel="stylesheet">
+<style>
+  *,*::before,*::after { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { width: 1080px; height: 1350px; background: {{--bg}}; color: {{--text}}; font-family: {{--font-body}}; }
+  .bar { width: 100%; height: 12px; background: {{--accent}}; }
+  .wrap { padding: 70px 60px 60px; display: flex; flex-direction: column; height: 1338px; }
+  .eyebrow { font-family: {{--font-eyebrow}}; font-size: 24px; letter-spacing: 0.18em; color: {{--accent}}; text-transform: uppercase; font-weight: 700; }
+  .date { font-family: {{--font-body}}; font-size: 32px; color: {{--text}}; margin-top: 8px; }
+  .headline { font-family: {{--font-headline}}; font-size: 110px; line-height: 0.98; margin-top: 80px; color: {{--text}}; font-weight: 700; }
+  .headline .accent { color: {{--accent}}; display: block; }
+  .body { margin-top: 60px; font-family: {{--font-body}}; font-size: 34px; line-height: 1.5; color: {{--text}}; }
+  .pill { margin: 80px auto 0; background: {{--dark}}; color: {{--gold}}; border: 3px solid {{--gold}}; border-radius: 50px; padding: 24px 60px; font-family: {{--font-eyebrow}}; font-size: 28px; font-weight: 700; letter-spacing: 0.05em; text-transform: uppercase; align-self: center; }
+  .tag { margin-top: 24px; text-align: center; font-family: {{--font-italic}}; font-size: 26px; color: {{--accent}}; }
+  .footer { margin-top: auto; font-family: {{--font-body}}; font-size: 20px; color: {{--text}}; opacity: 0.7; }
+</style></head>
+<body>
+<div class="bar"></div>
+<div class="wrap">
+  <div class="eyebrow">{{eyebrow}}</div>
+  <div class="date">{{date}}</div>
+  <div class="headline">{{headline}}</div>
+  <div class="body">{{subtitle}}</div>
+  <div class="pill">{{offer_pill}}</div>
+  <div class="tag">{{closer}}</div>
+  <div class="footer">{{handle}}</div>
+</div>
+</body></html>

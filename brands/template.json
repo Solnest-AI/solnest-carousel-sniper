@@ -1,0 +1,48 @@
+{
+  "_comment": "Template brand starter. The /solnest-carousel-setup wizard clones this into a brand JSON named after the user's brand slug. Never used directly. Never reference user's brand info here.",
+  "name": "Your Brand Name",
+  "slug": "your-brand-slug",
+  "handle": "@yourhandle",
+  "signoff": "",
+  "palette": {
+    "background": "#0D0D0B",
+    "text": "#F0EBE1",
+    "accent": "#C0522B",
+    "gold": "#C9A84C",
+    "dark_surface": "#1A1918",
+    "cream": "#F0EBE1"
+  },
+  "offer": {
+    "default_code": "",
+    "default_amount": "",
+    "default_thing": ""
+  },
+  "defaults": {
+    "slide_count": 7,
+    "folder_prefix": "carousel-",
+    "output_folder": "~/Documents/Carousels"
+  },
+  "voice_rules": {
+    "no_em_dashes": true,
+    "no_en_dashes": true,
+    "no_hashtags": true,
+    "no_engagement_bait": true,
+    "us_spelling": true,
+    "banned_phrases": [
+      "What would you automate?",
+      "Which one are you trying first?",
+      "Drop a comment if",
+      "in today's fast-paced world",
+      "unlock the power of",
+      "elevate your"
+    ]
+  },
+  "_palette_presets_available": [
+    "warm-luxury",
+    "modern-editorial",
+    "feminine-luxe",
+    "bold-direct",
+    "earthy-refined",
+    "custom"
+  ]
+}

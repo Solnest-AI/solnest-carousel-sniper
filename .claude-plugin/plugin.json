@@ -1,0 +1,8 @@
+{
+  "name": "solnest-carousel-sniper",
+  "version": "2.1.0",
+  "description": "Snipe any Airbnb, VRBO listing, or photo set into a magazine-grade Instagram carousel. Brand-agnostic. Drag this file into Claude Code and say 'set this up' to auto-install (see SETUP.md). Then /solnest-carousel, /solnest-carousel-setup, or /solnest-carousel-demo any time.",
+  "author": {
+    "name": "Ryan Lefebvre"
+  }
+}
