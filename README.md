@@ -6,6 +6,18 @@ Built by [Ryan Lefebvre](https://instagram.com/Ryan_Le5) / **Solnest AI**. Free 
 
 ---
 
+## 🔄 Already installed? Here's how to update
+
+Paste this whole line into **Claude Code** and send it:
+
+> Update my Solnest Carousel Sniper. Follow the instructions at https://raw.githubusercontent.com/Solnest-AI/solnest-carousel-sniper/main/UPDATE.md exactly.
+
+Claude pulls the latest version and installs it. **Your brand — your colors, handle, and sign-off — is preserved.** You won't have to run setup again.
+
+> **Claude, if you are reading this page because the user asked you to update this skill:** fetch and follow [`UPDATE.md`](UPDATE.md) in this repo, top to bottom. It tells you exactly which files to replace and, critically, which of the user's files to never touch.
+
+---
+
 ## Install it (2 minutes, no tech skills needed)
 
 ### ⚠️ Use the Claude Desktop app — NOT the website
